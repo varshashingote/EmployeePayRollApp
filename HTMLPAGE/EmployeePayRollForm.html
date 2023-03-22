@@ -56,9 +56,40 @@
             value="../assert/Profile/Ellipse-4.png" required>
             <img class="profile" id="image4" src="../assert/profile/Ellipse -4.png">
     
-    
-    </label>
-</div>
+        </label>
+    </div>
+     <!--UC 4 – Employee Payroll Form with Gender, Department and Salary Range -->
+     <div class="row-content">
+        <lable class="label text" for="gender">Gender</lable>
+        <div>
+            <input type="radio" id="male" name="gender" value="male"> 
+            <label class="text" for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female"> 
+            <label class="text" for="female">Female</label>
+        </div>
+    </div>
+    <div class="row-content">
+        <lable class="label text" for="name">Department</lable>
+        <div class="profile_radio_content">
+            <input class="checkbox" type="checkbox" id="hr" name="hr" value="HR" > 
+            <label class="text" for="hr">HR</label>
+            <input class="checkbox" type="checkbox" id="sales" name="sales" value="Sales" > 
+            <label class="text" for="sales">Sales</label>
+            <input class="checkbox" type="checkbox" id="finance" name="finance" value="Finance" > 
+            <label class="text" for="finance">Finance</label>
+            <input class="checkbox" type="checkbox" id="engineer" name="engineer" value="Engineer" > 
+            <label class="text" for="engineer">Engineer</label>
+            <input class="checkbox" type="checkbox" id="others" name="others" value="Others" > 
+            <label class="text" for="others">Others</label>
+        </div>
+    </div>
+    <div class="row-content">
+        <lable class="label text" for="name">Choose your salary</lable>
+        <input class="input" type="range" name="salary" min="600000" max="900000" step="1000" value="700000">
+        <output class="salary-output text" for="salary">700000</output>
+    </div>
+
+
 </form>
 </body>
 </html>
